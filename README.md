@@ -2,7 +2,8 @@ PyLZR
 
 v0.1
 
-This is a proof of concept for Python software that uses an audio analyzer to add sound reactivity funcionality to simple DMX laser show machines.
+This is a proof of concept for Python software that uses an audio analyzer to add sound reactivity funcionality to simple DMX laser show machines. Concept was
+finished on 8/1/24
 
 Audio analyzer uses live audio from system mic to determine average sound amplitude over a given interval. Prints average to console for user interpretations.
 If sound mode is on and the sound mode has changed, updates DMX laser by sending MIDI signal corresponding to mapped key press to SoundSwitch DMX software 
